@@ -108,3 +108,18 @@ function distances_to_moon (lat1, long1, ra1, dec1, alt1, lat2, long2, ra2, dec2
     var lengths_to_moon = e_to_m_distance (alt1, alt2, parallaxtheta, distance_tunnel)
     return lengths_to_moon
 }
+/*
+//testing function
+
+lat1 =  51.52
+long1 = -0.1
+ra1 =   12.051
+dec1 =  2.23486
+alt1 =  26
+lat2 =  34.27
+long2 = 108.900003
+ra2 =   11.9802
+dec2 =  2.411
+alt2 =  402
+console.log(distances_to_moon (lat1, long1, ra1, dec1, alt1, lat2, long2, ra2, dec2, alt2))
+*/
